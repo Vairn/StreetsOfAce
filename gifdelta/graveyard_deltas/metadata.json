@@ -1,0 +1,86 @@
+{
+  "gif_info": {
+    "width": 800,
+    "height": 336,
+    "total_frames": 4,
+    "original_file": "lastblade2-graveyard-stage.gif"
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "type": "reference",
+      "filename": "frame_000_reference.png",
+      "bounding_box": [
+        0,
+        0,
+        800,
+        336
+      ],
+      "duration": 140
+    },
+    {
+      "frame_index": 1,
+      "type": "delta",
+      "filename": "frame_001_delta.png",
+      "bounding_box": [
+        0,
+        16,
+        800,
+        336
+      ],
+      "position": [
+        0,
+        16
+      ],
+      "size": [
+        800,
+        320
+      ],
+      "duration": 140
+    },
+    {
+      "frame_index": 2,
+      "type": "delta",
+      "filename": "frame_002_delta.png",
+      "bounding_box": [
+        0,
+        14,
+        800,
+        336
+      ],
+      "position": [
+        0,
+        14
+      ],
+      "size": [
+        800,
+        322
+      ],
+      "duration": 140
+    },
+    {
+      "frame_index": 3,
+      "type": "delta",
+      "filename": "frame_003_delta.png",
+      "bounding_box": [
+        0,
+        14,
+        800,
+        336
+      ],
+      "position": [
+        0,
+        14
+      ],
+      "size": [
+        800,
+        322
+      ],
+      "duration": 140
+    }
+  ],
+  "extraction_info": {
+    "method": "xor_delta",
+    "description": "First frame is reference, subsequent frames are XOR deltas showing only changed pixels"
+  }
+}
