@@ -1,2 +1,10 @@
 gifdelta/batch_output/*
 gifdelta/Test_art/*
+*.png
+_pycache_
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
